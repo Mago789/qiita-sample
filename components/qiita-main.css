@@ -1,3 +1,4 @@
+/* 約90行目からスタート */
 .main{
     display: flex;
     margin: 0px 175px;
@@ -37,7 +38,7 @@
     color: black;
 }
 .hover:hover{
-    background-color: gray;
+    background-color: darkgray;
 }
 
 .adv{

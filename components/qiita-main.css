@@ -20,9 +20,43 @@
 }
 
 .trend-artcle{
-    border: solid 3px black;
     width: 60%;
     margin: 0px 10px;
+    border: solid 3px black;
+}
+
+.trend-title{
+    border: solid 3px black;
+}
+
+.trend-flex{
+    display: flex;
+    align-items: center;
+}
+
+.trend-ward{
+    font-size: 20px;
+    margin: 0px 10px 10px 10px;
+}
+
+.trend-comment{
+    font-size: 12px;
+    color: darkgray;
+}
+
+.tagu-flex{
+    display: flex;
+}
+
+.tagu{
+    color: darkgray;
+    margin: 0px 10px;
+}
+
+.tagu:hover{
+    color: chartreuse;
+    border-bottom: solid 2px chartreuse;
+    width: 5%;
 }
 
 .border-hiku{

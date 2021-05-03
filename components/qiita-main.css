@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    margin: 0px 175px;
+    margin-top: 50px;
+}
+
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.trend{
+    background-color: chartreuse;
+    color:black;
+}
+.trend:hover{
+    background-color: darkgray;
+}
+
+.trend-artcle{
+    border: solid 3px black;
+    width: 60%;
+    margin: 0px 10px;
+}
+
+.border-hiku{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.q-feed{
+    margin-top: 10px;
+}
+
+.hover{
+    color: black;
+}
+.hover:hover{
+    background-color: gray;
+}
+
+.adv{
+    width: 25%;
+}

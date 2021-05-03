@@ -1,0 +1,73 @@
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-flex{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.foot{
+    width: 50%;
+}
+
+.foot-flex{
+    width: 50%;
+}
+
+.foot-flex p{
+    margin: 10px;
+}
+
+.foot-title{
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.fin-flex{
+    display: flex;
+}
+
+.about{
+    font-size: 13px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.about-flex{
+    display: flex;
+    width: 50%;
+}
+
+.about-title{
+    font-size: 20px;
+    width: 50%;
+}
+
+.release{
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.increments-flex{
+    display: flex;
+    width: 50%
+}
+
+.increments{
+    font-size: 13px;
+    margin-right: 15px;
+}
+
+.increments-title{
+    font-size: 20px;
+    width: 50%;
+}
+
+.qiita-other{
+    font-size: 13px;
+}

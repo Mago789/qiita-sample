@@ -1,14 +1,38 @@
 /* 約90行目からスタート */
 .main{
+    background-color: rgb(245, 245, 245);
+}
+
+.main-naka{
     display: flex;
     margin: 0px 175px;
-    margin-top: 50px;
 }
 
 .main-flex{
     display: flex;
     flex-direction: column;
     width: 15%;
+    margin-top: 50px;
+}
+
+.border-hiku{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.q-feed{
+    margin-top: 10px;
+}
+
+.hover{
+    color: black;
+}
+.hover:hover{
+    background-color: darkgray;
+}
+
+.adv{
+    width: 25%;
 }
 
 .trend{
@@ -19,14 +43,12 @@
     background-color: darkgray;
 }
 
-.trend-artcle{
+.trend-article{
     width: 60%;
-    margin: 0px 10px;
-    border: solid 3px black;
-}
-
-.trend-title{
-    border: solid 3px black;
+    margin: 50px 10px 50px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .trend-flex{
@@ -59,22 +81,27 @@
     width: 5%;
 }
 
-.border-hiku{
-    margin-top: 10px;
-    width: 100%;
+.article-waku{
+    margin-left: 10px;
+    border-top: solid 2px rgb(240, 240, 240);
 }
 
-.q-feed{
-    margin-top: 10px;
+.article-flex{
+    display: flex;
+    margin: 5px 0px;
 }
 
-.hover{
-    color: black;
-}
-.hover:hover{
-    background-color: darkgray;
+.article-color{
+    color: darkgray;
 }
 
-.adv{
-    width: 25%;
+.article-main{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px;
+}
+
+.article-tagu{
+    font-size: 15px;
+    margin: 5px 0px;
 }
